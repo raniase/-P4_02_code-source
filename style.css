@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    /*change color of hover*/
+    color:white;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -675,9 +676,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/*change size*/
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -741,6 +742,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    /*ajustement de la taille*/
+    width: 100%;
 }
 
 .portfolio-row {
@@ -751,9 +754,10 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/*chane backgroud color*/
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: black;
+    opacity: .7;
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +779,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    /*change color*/
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1044,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/*ajustement css*/
+.avis{
+    font-size:18px;
+    font-weight:700;
+}
+.avis--source{
+    font-size:16px;
 }
