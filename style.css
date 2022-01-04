@@ -17,6 +17,10 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    border-bottom:solid black;
+} 
+  
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: black;
+    color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,8 +154,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    /*change color of hover*/
-    color:white;
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -676,8 +679,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-/*change size*/
+
 p {
+    margin: auto;
     font-size: 16px;
 }
 
@@ -742,8 +746,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    /*ajustement de la taille*/
-    width: 100%;
+    width:100%;
 }
 
 .portfolio-row {
@@ -754,7 +757,7 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-/*chane backgroud color*/
+
 .black-background {
     background-color: black;
     opacity: .7;
@@ -784,8 +787,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    /*change color*/
-    color: black!important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1045,11 +1047,66 @@ h4 {
         text-align: center;
     }
 }
+
 /*ajustement css*/
 .avis{
     font-size:18px;
-    font-weight:700;
+    font-weight: bold;
 }
 .avis--source{
     font-size:16px;
+}
+.logop2{
+    width:100%;
+}
+.partenaires{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer h3{
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+footer ul{
+    display:flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction:column;
+    width:100%;
+    list-style-type: none;
+    position:relative;
+    right:20px;
+}
+
+footer li{
+    width:100%;
+    max-width: 300px;
+    height:48px;
+    border:solid white;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 20px 10px 20px;
+    font-size: 16px;
+    color:white;
+}
+
+.adresse{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+footer p {
+    color:white;
 }
