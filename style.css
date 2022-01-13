@@ -48,7 +48,7 @@ a:focus{
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -56,7 +56,7 @@ a:focus{
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 40px 50px;
 }
 
 .bg-center,
@@ -329,7 +329,7 @@ a:focus{
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -920,7 +920,7 @@ h4 {
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
+        padding-left: 17px;
         width: 100%;
     }
     .nav > li:hover {
