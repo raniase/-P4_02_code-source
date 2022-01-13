@@ -20,7 +20,6 @@ a:hover {
 a:focus{
     border-bottom:solid black;
 } 
-  
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -283,6 +282,7 @@ a:focus{
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
+  
     padding-right: 0;
     padding-left: 0;
 }
@@ -442,6 +442,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color:rgba(255, 255, 255, 255);
 }
 
 .mg-lg {
@@ -652,10 +653,11 @@ h6,
 p,
 label,
 .btn,
-a {
+a
+ {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black;
 }
 
 .container {
@@ -710,15 +712,16 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.4em;
+    
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color:black!important;
 }
 
 .med-width-whitespace {
@@ -728,7 +731,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color:black;
 }
 
 h4 {
@@ -741,7 +744,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white !important;
 }
 
 .portfolio-thumb {
@@ -773,12 +776,8 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F3976C
 }
 
 .tc-white {
@@ -816,13 +815,8 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
@@ -1040,6 +1034,7 @@ h4 {
 }
 
 /*ajustement css*/
+
 .avis{
     font-size:18px;
     font-weight: bold;
@@ -1081,14 +1076,14 @@ footer li{
     width:100%;
     max-width: 300px;
     height:48px;
-    border:solid white;
+
     background-color:black;
     display:flex;
     align-items: center;
     justify-content: space-around;
     margin: 10px 20px 10px 20px;
     font-size: 16px;
-    color:white;
+    color:white !important;
 }
 
 .adresse{
